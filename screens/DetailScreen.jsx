@@ -2,9 +2,9 @@ import { StyleSheet, Text, View, Image, Dimensions, ImageBackground } from 'reac
 import { useRoute } from '@react-navigation/native';
 import { useState, useEffect } from 'react';
 import { hourFormater, formatTemperature, formatDetailDate } from '../helpers/detailDateFormater.js'
-import Cloud from '../cloud.gif'
-import Clear from '../clear.gif'
-import Rain from '../rain.gif'
+import Cloud from './images/cloud.gif'
+import Clear from './images/clear.gif'
+import Rain from './images/rain.gif'
 const screenHeight = Dimensions.get('window').height;
 export default function Detail() {
     const route = useRoute();

@@ -1,5 +1,5 @@
 import { View, StyleSheet, Text, ScrollView, TouchableOpacity, Image, Animated } from 'react-native';
-import icon from '../icon2.png'
+import icon from './images/icon2.png'
 import { useEffect, useRef } from 'react';
 import { useNavigation } from '@react-navigation/native';
 

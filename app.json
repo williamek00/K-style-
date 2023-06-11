@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "client",
+    "name": "k-style-test",
     "slug": "client",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./screens/images/icon2.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./screens/images/icon2.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,13 +19,13 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./screens/images/icon2.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.williamek00.client"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./screens/images/icon2.png"
     },
     "extra": {
       "eas": {

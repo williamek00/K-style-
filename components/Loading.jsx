@@ -1,6 +1,6 @@
 import { View, Image, StyleSheet, Animated } from "react-native"
 import { useEffect, useRef } from "react"
-import icon from '../icon2.png'
+import icon from '../screens/images/icon2.png'
 export default function Loading() {
     const rotateAnim = useRef(new Animated.Value(0)).current
     useEffect(() => {
